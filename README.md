@@ -21,7 +21,6 @@ In the new method, we would just feed each alternative (non-copyrighted texts) i
 #### Pros:
 - More easily extensible without having to worry about the model losing track of instruction
 - Doesn't require the model to be instruction finetuned
-- Would be hard to finetune the model to hide perplexity (TBC)
 - Gives more information than just what was ‘chosen’ (provides perplexity score)
 - Based on initial testing the model could ‘guess’ the correct answer with a high probability at 4 options all from Claude even if it was impossible that it saw it in training but this is possible to fix using more and verified  options
 - If extended past 4 options has a lower false positive rate than decop
