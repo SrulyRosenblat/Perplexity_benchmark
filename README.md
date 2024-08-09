@@ -1,6 +1,6 @@
 # Perplexity Benchmark
 
-*Using the **perplexity** metric on a combination of the original and paraphrased texts to detect if the original was in the dataset.*
+*Using the **perplexity** metric on a combination of original and paraphrased texts to detect if the original text was in the dataset.*
 
 ## The Idea
 Create an offshoot of the DeCop benchmark that doesn't require instruction-tuned models, that could theoretically use an infinite amount of alternative texts, and is more transparent about how the model is guessing (you could look at perplexity scores, the model is providing the perplexity scores).
